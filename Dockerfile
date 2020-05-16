@@ -1,7 +1,5 @@
 FROM centos:7.4.1708
 
-MAINTAINER Mingfun Wong "mingfun.wong.chn@gmail.com"
-
 COPY ./start.sh /start.sh
 
 RUN yum install -y wget \
